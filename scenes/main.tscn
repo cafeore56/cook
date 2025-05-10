@@ -1,3 +1,7 @@
-[gd_scene format=3 uid="uid://cdy16jibay6q8"]
+[gd_scene load_steps=2 format=3 uid="uid://cdy16jibay6q8"]
+
+[ext_resource type="PackedScene" uid="uid://b4y8ai3g88yku" path="res://ad/ad.tscn" id="1_o5qli"]
 
 [node name="Main" type="Node2D"]
+
+[node name="Ad" parent="." instance=ExtResource("1_o5qli")]

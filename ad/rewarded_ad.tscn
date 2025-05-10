@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://w6xtxpmiyn62"]
+
+[ext_resource type="Script" uid="uid://dywog3hny8c60" path="res://ad/rewarded_ad.gd" id="1_0otjc"]
+
+[node name="RewardedAD" type="Button"]
+offset_right = 8.0
+offset_bottom = 8.0
+script = ExtResource("1_0otjc")

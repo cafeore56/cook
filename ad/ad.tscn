@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://b4y8ai3g88yku"]
+
+[ext_resource type="Script" uid="uid://dqyqurpbym1w" path="res://ad/ad.gd" id="1_7e4wx"]
+[ext_resource type="PackedScene" uid="uid://1cadmkj66f28" path="res://ad/inter_stitial_ad.tscn" id="2_vrgnf"]
+[ext_resource type="PackedScene" uid="uid://w6xtxpmiyn62" path="res://ad/rewarded_ad.tscn" id="3_l3f65"]
+
+[node name="Ad" type="Node"]
+script = ExtResource("1_7e4wx")
+
+[node name="InterStitialAD" parent="." instance=ExtResource("2_vrgnf")]
+visible = false
+
+[node name="RewardedAD" parent="." instance=ExtResource("3_l3f65")]
+visible = false
